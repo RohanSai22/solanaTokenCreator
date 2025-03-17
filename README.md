@@ -17,17 +17,17 @@ Kindly follow the following Instructions to run the project in your system and i
 
 #### Install Vs Code Editor
 
-```https://code.visualstudio.com/download
+  https://code.visualstudio.com/download
   GET: VsCode Editor
-```
+
 
 #### NodeJs & NPM Version
 
-```
+
   URL: https://nodejs.org/en/download
   NodeJs: v18.12.1 / LATEST
   NPM: 8.19.2
-```
+
 
 ## Final Code Instruction
 
