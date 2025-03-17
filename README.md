@@ -16,14 +16,14 @@ Kindly follow the following Instructions to run the project in your system and i
 #### Setup
 
 #### Install Vs Code Editor
-
+  You can find it from the below code :
   https://code.visualstudio.com/download
-  GET: VsCode Editor
+
 
 
 #### NodeJs & NPM Version
 
-
+  Install the compatable npm packages for fewer bugs 
   URL: https://nodejs.org/en/download
   NodeJs: v18.12.1 / LATEST
   NPM: 8.19.2
