@@ -313,8 +313,9 @@ export const CreateView: FC<{
                     <div className="mt-5 w-full text-center">
                       <p className="text-default-300 text-base font-medium leading-6">
                         <InputView
-                          name={"Token Address"}
+                          name="Token Address"
                           placeholder={tokenMintAddress}
+                          clickhandle={() => {}}
                         />
                         <span
                           className="cursor-pointer"

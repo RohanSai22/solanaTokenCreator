@@ -3,7 +3,7 @@ import { MdGeneratingTokens } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { LuArrowRight } from "react-icons/lu"; // Importing a better arrow icon from Lucide
 
-interface ToolViewProps {
+interface ToolView {
   setOpenAirdrop: (open: boolean) => void;
   setOpenContact: (open: boolean) => void;
   setOpenTokenMetadata: (open: boolean) => void;
@@ -11,7 +11,7 @@ interface ToolViewProps {
   setOpenSendTransaction: (open: boolean) => void;
 }
 
-export const ToolView: FC<ToolViewProps> = ({
+export const ToolView: FC<ToolView> = ({
   setOpenAirdrop,
   setOpenContact,
   setOpenTokenMetadata,

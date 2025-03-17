@@ -12,13 +12,11 @@ import { notify } from "utils/notifications";
 import { InputView } from "views/input";
 import Branding from "components/Branding";
 import { set } from "immer/dist/internal";
-interface TokenMetadataProps {
+interface TokenMetadata {
   setOpenTokenMetaData: (open: boolean) => void;
 }
 
-export const TokenMetadata: FC<TokenMetadataProps> = ({
-  setOpenTokenMetaData,
-}) => {
+export const TokenMetadata: FC<TokenMetadata> = ({ setOpenTokenMetaData }) => {
   const { connection } = useConnection();
   const [tokenAddress, setTokenAddress] = useState("");
   const [tokenMetadata, setTokenMetadata] = useState(null);
