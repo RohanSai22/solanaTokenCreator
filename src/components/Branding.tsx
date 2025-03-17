@@ -1,12 +1,12 @@
 import React, { FC } from "react";
 
-interface BrandingProps {
+interface Branding {
   image: string;
   title: string;
   message: string;
 }
 
-const Branding: FC<BrandingProps> = ({ image, title, message }) => {
+const Branding: FC<Branding> = ({ image, title, message }) => {
   return (
     <div className="ps-4  py-4 lg:block">
       <div className="relative h-full w-full overflow-hidden rounded-xl">
