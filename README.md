@@ -4,7 +4,7 @@ Build And Deploy Solana Token Creator Dapp Using TypeScript, NextJs, Tailwind on
 and Solana SDK with 100% decentralization
 
 
-It has The complete source code file of Solana Token Creator Dapp.
+The repo has the complete source code for the Solana Token Creator Dapp.
 
 ## Project Overview
 
